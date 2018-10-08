@@ -1,0 +1,12 @@
+A = [(1:1:5), 0, (6:1:10)];
+A1 = A(5);
+A2 = A(7:1:end-1);
+B = [A(1:1:2), 0, A(4:1:6), 0, A(8:1:end)];
+C = [A B];
+clen = length(C);
+czero = find(C == 0);
+D = C.*C;
+E = C';
+sum1 = C*E;
+sum2 = sum(D);
+difference = abs(sum1 - sum2);

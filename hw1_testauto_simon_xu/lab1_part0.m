@@ -1,0 +1,11 @@
+x = 1;
+y = 3;
+d1 = x^4 + 3 * y^3 + y;
+d2 = sin(x^2) + tan(2 * y);
+d3 = (sin(1/x))^3 + cos(1/y^2);
+d4 = log(atan(y/x));
+d5 = log2(sin(abs(exp(x) + y^2)));
+d6 = y/(x^3 + 1);
+d7 = acos(1/2 * cos(x));
+d8 = cos(x)/(1 + sin(y));
+d9 = 1/y^2 + x^4/(x^5 + 5 * x * sin(x)); 
